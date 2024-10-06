@@ -5,7 +5,6 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import code.microsystem.encoder.BCryptPasswordEncoder;
 import code.microsystem.entity.User;
 import code.microsystem.exception.UsernameNotFoundException;
 import code.microsystem.repository.UserRepository;
